@@ -1,0 +1,54 @@
+    body {
+      background-color: white;
+      color: navy;
+    }
+    .navbar {
+      background-color: navy;
+    }
+
+    .navbar .navbar-brand {
+      color: yellow;
+    }
+
+    .navbar .navbar-nav .nav-link {
+      color: white;
+    }
+
+    .navbar .navbar-nav .nav-link:hover {
+      color: darkgoldenrod;
+    }
+
+    .container h1 {
+      color: navy;
+    }
+
+    .btn-primary {
+      background-color: darkgoldenrod;
+      border-color: darkgoldenrod;
+    }
+
+    .btn-primary:hover {
+      background-color: darkorange;
+      border-color: darkorange;
+    }
+
+    .table-striped tbody tr:nth-child(odd) {
+      background-color: #f1f1f1;
+    }
+
+    .footer {
+      background-color: navy;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .navbar .navbar-brand,
+    .navbar .navbar-nav .nav-link,
+    .container h1,
+    .footer {
+      font-family: 'Arial', sans-serif;
+    }
